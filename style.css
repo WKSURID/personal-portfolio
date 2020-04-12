@@ -1,0 +1,205 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Top Section*/
+
+.top-banner{
+    height: 500px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.hero-one{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 5%;
+}
+
+.hero-one h1{
+    font-size: 50px;
+}
+
+.hero-one .name-highlight{
+    color: #FF4F5A;
+}
+
+.hero-one h3{
+    font-size: 19px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.hero-one p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    color: #696969;
+}
+
+.link-button{
+    text-decoration: none;
+    background-color: #FF4F5A;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 20px 5px 20px 5px;
+    padding: 10px 30px 10px 30px;
+    text-transform: uppercase;
+
+}
+
+.link-button:hover{
+    background-color: #F87D63;
+    color: #ffffff;
+}
+
+.hero-two{
+    width: 40%;
+    float: left;
+}
+
+.hero-two img{
+    width: 100%;
+    margin-left: 10%;
+}
+
+/*Dream-Section*/
+
+.dream-area{
+    height: 500px;
+    margin-top: 150px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream-one{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 3%;
+}
+.dream-one img{
+   width: 100%;
+}
+
+.dream-two {
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2%;
+}
+
+.dream-two h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.dream-two h4{
+    font-size: 19px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.dream-two p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    color: #696969;
+}
+
+/* Experience Section */
+
+.exp-area{
+    height: 500px;
+    margin-top: 150px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.exp-one{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;   
+}
+
+.exp-one h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000
+}
+
+.exp-one h3{
+    font-size: 19px;
+    font-weight: 700;
+    color: #FF4F5A
+}
+
+.exp-one p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    margin-right: 40px;
+    color: #696969;
+}
+
+.exp-two{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+   
+}
+
+.exp-two h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.exp-two h3{
+    font-size: 19px;
+    font-weight: 700;
+    color: #FF4F5A;
+}
+
+.exp-two p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    margin-right: 40px;
+    color: #696969;
+}
+
+.box-shadow{
+    box-shadow: 10px 10px 40px #dbdbdb;
+    border-radius: 5px;
+    height: 80%;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#junior-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
